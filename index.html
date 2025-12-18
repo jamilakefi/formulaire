@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="errorstyle.css">
+    <title>login</title>
+</head>
+<body>
+    <header>
+        <h1>Connexion</h1>
+        <h2>Veuillez entrer vos Identifiants</h2>
+    </header>
+    <form>
+        <div>
+            <label for=""> Connexion en tant que </label>
+            <input type="radio"name="con"id="invite"><label for="invite"> Invite</label>
+            <input type="radio"name="con"id="admin"><label for="admin">Admin</label>
+            <small class ="error"></small>
+        </div>
+        <div>
+            <label for="login">login</label>
+            <input type="text" name="login"id="login">
+            <small class ="error"></small>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password"id="password ">
+            <small class ="error"></small>
+        </div>
+        <div>
+            <input type="button"value="Se connecter ">
+        </div>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
